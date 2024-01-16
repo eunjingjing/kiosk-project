@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="스마트 키오스크"
+        android:textSize="25pt"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:fontFamily="@font/my_font"/>
+
+    <Button
+        android:id="@+id/MainOrderbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="주문하기"
+        android:textSize="15pt"
+        android:fontFamily="@font/my_font"/>
+    <!-- order_page로 이동-->
+    <Button
+        android:id="@+id/Mypagebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text =" 내 정보 "
+        android:textSize="15pt"
+        android:fontFamily="@font/my_font"/>
+    <!-- user_page로 이동-->
+    <Button
+        android:id="@+id/Logoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="로그아웃"
+        android:textSize="15pt"
+        android:fontFamily="@font/my_font"/>
+    <!-- activity_main으로 이동-->
+</LinearLayout>
